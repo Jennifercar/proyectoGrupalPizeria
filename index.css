@@ -1,0 +1,141 @@
+*{
+    background-color: #131415;
+}
+
+.contenedorCategoria{
+display: flex;
+justify-content: center;
+gap: 36px;
+
+}
+
+.nomCat{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+line-height: 131.02%;
+color: #FFFFFF;
+}
+
+.cuadrado{
+   width: 147px; 
+   height: 171px;
+   top: 821px;
+   left: 116px;
+   border-radius: 15px;
+   background-color: #252525;
+   box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   
+   
+}
+
+.pizzeria{
+width: 71px;
+height: 71px;
+left: 154px;
+top: 846px;
+border-radius: 15px;
+background: url(./image\ 35.png);
+background-repeat: no-repeat;
+background-position: center center;
+}
+
+.nombreDeCategorias{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 131.02%;
+    color: #FFFFFF;
+    display: flex;
+justify-content: center;
+align-items: flex-start;
+background: #252525;
+}
+
+.lineaNaranja{
+    width: 24px;
+height: 4px;
+left: 177px;
+top: 970px;
+background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+border-radius: 15px;
+}
+    
+.hamburguesas{
+    width: 71px;
+height: 71px;
+left: 154px;
+top: 846px;
+border-radius: 15px;
+background: url(./burger\ 2.png);
+background-repeat: no-repeat;
+background-position: center center;
+}
+
+.napapuki{
+    width: 71px;
+    height: 71px;
+    left: 154px;
+    top: 846px;
+    border-radius: 15px;
+    background: url(./fries\ 2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.individuales{
+    width: 71px;
+    height: 71px;
+    left: 154px;
+    top: 846px;
+    border-radius: 15px;
+    background: url(./pizza\ 2\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.wraps{
+    width: 71px;
+    height: 71px;
+    left: 154px;
+    top: 846px;
+    border-radius: 15px;
+    background: url(./buritto\ 1\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center center;  
+}
+
+.mexicanfood{
+    width: 71px;
+    height: 71px;
+    left: 154px;
+    top: 846px;
+    border-radius: 15px;
+    background: url(./taco\ 1\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+.batidukys{
+    width: 71px;
+    height: 71px;
+    left: 154px;
+    top: 846px;
+    border-radius: 15px;
+    background: url(./float\ 1\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
