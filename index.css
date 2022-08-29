@@ -139,3 +139,17 @@ background-position: center center;
     background-repeat: no-repeat;
     background-position: center center; 
 }
+.contenedorFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    color: #FFFFFF;
+}
+.elementosFooter{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 131.02%;
+}
