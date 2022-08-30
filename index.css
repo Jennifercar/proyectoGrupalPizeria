@@ -7,7 +7,7 @@
 
 .contenedorheader {
   height: 80px;
-  width: 80%;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -17,9 +17,9 @@
   display: flex;
   list-style: none;
   gap: 60px;
-  padding-top: 68px;
-  position: relative;
-  left: 170px;
+  padding-top: 0px;
+
+  left: 0px;
 }
 
 .logo {
@@ -31,6 +31,8 @@
   display: flex;
   justify-content: center;
   gap: 36px;
+  flex-wrap: wrap;
+  width: 100vw;
 }
 
 .nomCat {
@@ -87,10 +89,9 @@
 }
 
 .lineaNaranja {
-  width: 24px;
+  width: 30px;
   height: 4px;
-  left: 177px;
-  top: 970px;
+  margin-top: 10px;
   background: linear-gradient(98.81deg, #ffa100 -0.82%, #ff005c 101.53%);
   box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
   border-radius: 15px;
@@ -100,7 +101,6 @@
   width: 71px;
   height: 71px;
   left: 154px;
-  top: 846px;
   border-radius: 15px;
   background: url(./burger\ 2.png);
   background-repeat: no-repeat;
@@ -111,7 +111,6 @@
   width: 71px;
   height: 71px;
   left: 154px;
-  top: 846px;
   border-radius: 15px;
   background: url(./fries\ 2.png);
   background-repeat: no-repeat;
@@ -121,7 +120,6 @@
   width: 71px;
   height: 71px;
   left: 154px;
-  top: 846px;
   border-radius: 15px;
   background: url(./pizza\2\\(1\).png);
   background-repeat: no-repeat;
@@ -132,7 +130,6 @@
   width: 71px;
   height: 71px;
   left: 154px;
-  top: 846px;
   border-radius: 15px;
   background: url(./buritto\1\\(1\).png);
   background-repeat: no-repeat;
@@ -143,7 +140,6 @@
   width: 71px;
   height: 71px;
   left: 154px;
-  top: 846px;
   border-radius: 15px;
   background: url(./taco\1\\(1\).png);
   background-repeat: no-repeat;
@@ -154,7 +150,6 @@
   width: 71px;
   height: 71px;
   left: 154px;
-  top: 846px;
   border-radius: 15px;
   background: url(./float\1\\(1\).png);
   background-repeat: no-repeat;
