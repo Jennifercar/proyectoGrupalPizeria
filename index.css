@@ -25,12 +25,20 @@
   height: 100%;
 }
 
+.categorias {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  flex-wrap: wrap;
+}
 .contenedorCategoria {
   display: flex;
   justify-content: center;
-  gap: 36px;
+  gap: 30px;
   flex-wrap: wrap;
-  width: 100vw;
+  width: 100%;
 }
 
 .nomCat {
@@ -61,8 +69,7 @@
 .pizzeria {
   width: 71px;
   height: 71px;
-  left: 154px;
-  top: 846px;
+
   border-radius: 15px;
   background: url(./image\ 35.png);
   background-repeat: no-repeat;
@@ -97,8 +104,7 @@
   left: 154px;
   border-radius: 15px;
   background: url(./burger\ 2.png);
-  background-repeat: no-repeat;
-  background-position: center center;
+  
 }
 
 .napapuki {
@@ -107,8 +113,7 @@
   left: 154px;
   border-radius: 15px;
   background: url(./fries\ 2.png);
-  background-repeat: no-repeat;
-  background-position: center center;
+ 
 }
 .individuales {
   width: 71px;
@@ -116,8 +121,7 @@
   left: 154px;
   border-radius: 15px;
   background: url(./pizza\2\\(1\).png);
-  background-repeat: no-repeat;
-  background-position: center center;
+ 
 }
 
 .wraps {
@@ -126,17 +130,14 @@
   left: 154px;
   border-radius: 15px;
   background: url(./buritto\1\\(1\).png);
-  background-repeat: no-repeat;
-  background-position: center center;
+
 }
 
 .mexicanfood {
   width: 86px;
   height: 86px;
 
- 
   background: url(/taco\ 1.png);
- 
 }
 
 .batidukys {
@@ -144,8 +145,33 @@
   height: 86px;
   border-radius: 15px;
   background: url(/float\ 1.png);
-  
 }
+
+.lo_mas_popular {
+  
+  width: 95%;
+}
+
+.titulo_cards {
+  color: white;
+  font-family: "Montserrat";
+  padding: 30px 00px;
+}
+
+.contenedor_cards{
+
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card_comida {
+  width: 282px;
+  height: 213px;
+  background-color: #252525;
+  border-radius: 15px;
+}
+
 .contenedorFooter {
   display: flex;
   justify-content: center;
