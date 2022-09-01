@@ -104,7 +104,6 @@
   left: 154px;
   border-radius: 15px;
   background: url(./burger\ 2.png);
-  
 }
 
 .napapuki {
@@ -113,7 +112,6 @@
   left: 154px;
   border-radius: 15px;
   background: url(./fries\ 2.png);
- 
 }
 .individuales {
   width: 71px;
@@ -121,7 +119,6 @@
   left: 154px;
   border-radius: 15px;
   background: url(./pizza\2\\(1\).png);
- 
 }
 
 .wraps {
@@ -130,7 +127,6 @@
   left: 154px;
   border-radius: 15px;
   background: url(./buritto\1\\(1\).png);
-
 }
 
 .mexicanfood {
@@ -148,8 +144,10 @@
 }
 
 .lo_mas_popular {
-  
+  display: flex;
   width: 95%;
+  flex-direction: column;
+  margin: auto;
 }
 
 .titulo_cards {
@@ -158,12 +156,12 @@
   padding: 30px 00px;
 }
 
-.contenedor_cards{
-
+.contenedor_cards {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
   justify-content: center;
+  margin: auto;
 }
 .card_comida {
   width: 282px;
