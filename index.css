@@ -47,8 +47,8 @@
 .cuadrado {
   width: 147px;
   height: 171px;
-  top: 821px;
-  left: 116px;
+  /* top: 821px;
+  left: 116px; */
   border-radius: 15px;
   background-color: #252525;
   box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
@@ -131,23 +131,20 @@
 }
 
 .mexicanfood {
-  width: 71px;
-  height: 71px;
-  left: 154px;
-  border-radius: 15px;
-  background: url(./taco\1\\(1\).png);
-  background-repeat: no-repeat;
-  background-position: center center;
+  width: 86px;
+  height: 86px;
+
+ 
+  background: url(/taco\ 1.png);
+ 
 }
 
 .batidukys {
-  width: 71px;
-  height: 71px;
-  left: 154px;
+  width: 86px;
+  height: 86px;
   border-radius: 15px;
-  background: url(./float\1\\(1\).png);
-  background-repeat: no-repeat;
-  background-position: center center;
+  background: url(/float\ 1.png);
+  
 }
 .contenedorFooter {
   display: flex;
