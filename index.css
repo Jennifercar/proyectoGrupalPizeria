@@ -17,11 +17,11 @@
   display: flex;
   list-style: none;
   gap: 60px;
- padding-right: 30px;
+  padding-right: 30px;
 }
 
 .logo {
- padding: 20px;
+  padding: 20px;
   height: 100%;
 }
 
@@ -36,8 +36,6 @@
 .nomCat {
   display: flex;
   margin: 20px 30px;
- 
-
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 800;
@@ -157,6 +155,7 @@
   align-items: center;
   gap: 17px;
   color: #ffffff;
+  margin-top: 40px;
 }
 .elementosFooter {
   font-family: "Montserrat";
