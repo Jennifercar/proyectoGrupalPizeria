@@ -5,6 +5,9 @@
   box-sizing: border-box;
 }
 
+body {
+  height: 120vh;
+}
 .contenedorheader {
   height: 100px;
   width: 100%;
@@ -300,14 +303,16 @@
   align-items: center;
   gap: 17px;
   color: #ffffff;
-  margin-top: 40px;
+}
+
+footer {
+  margin-top: 60px;
 }
 .elementosFooter {
   font-family: "Montserrat";
-  font-style: normal;
   font-weight: 400;
   font-size: 17px;
-  line-height: 131.02%;
+  margin-top: 10px;
 }
 
 .elementosFooter span {
