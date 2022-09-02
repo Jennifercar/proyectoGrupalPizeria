@@ -100,11 +100,9 @@
 }
 
 .hamburguesas {
-  width: 71px;
-  height: 71px;
-  left: 154px;
-  border-radius: 15px;
-  background: url(./burger\ 2.png);
+  width: 86px;
+  height: 86px;
+  background: transparent;
 }
 
 .napapuki {
@@ -115,19 +113,15 @@
   background: url(./fries\ 2.png);
 }
 .individuales {
-  width: 71px;
-  height: 71px;
-  left: 154px;
-  border-radius: 15px;
-  background: url(./pizza\2\\(1\).png);
+  width: 86px;
+  height: 86px;
+  background: transparent;
 }
 
 .wraps {
-  width: 71px;
-  height: 71px;
-  left: 154px;
-  border-radius: 15px;
-  background: url(./buritto\1\\(1\).png);
+  width: 86px;
+  height: 86px;
+  background: transparent;
 }
 
 .mexicanfood {
@@ -175,6 +169,7 @@
   width: 237px;
   height: 97px;
   border-radius: 15px;
+  background-image: url(/imagens_cards_gus/Photo\ Menu.png);
 }
 
 .contenedorFooter {
