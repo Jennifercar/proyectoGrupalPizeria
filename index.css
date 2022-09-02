@@ -205,7 +205,31 @@
   width: 237px;
   height: 97px;
   border-radius: 15px;
+  background-image: url(/imagens_cards_gus/picantovich.png);
+  margin: 2px auto;
+}
+
+.imagen_comida5 {
+  width: 237px;
+  height: 97px;
+  border-radius: 15px;
   background-image: url(/imagens_cards_gus/lahasbulla.png);
+  margin: 2px auto;
+}
+
+.imagen_comida6 {
+  width: 237px;
+  height: 97px;
+  border-radius: 15px;
+  background-image: url(/imagens_cards_gus/leomessi.png);
+  margin: 2px auto;
+}
+
+.imagen_comida7 {
+  width: 237px;
+  height: 97px;
+  border-radius: 15px;
+  background-image: url(/imagens_cards_gus/nickgi.png);
   margin: 2px auto;
 }
 
