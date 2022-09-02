@@ -277,7 +277,7 @@
   border-radius: 15px;
   font-size: 12px;
   font-weight: 500;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
 }
 
 .card_boton button:hover {
