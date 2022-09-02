@@ -159,10 +159,14 @@
   margin: auto;
 }
 .card_comida {
+  display: flex;
+  flex-direction: column;
   width: 282px;
   height: 213px;
   background-color: #252525;
   border-radius: 15px;
+  justify-content: space-between;
+  padding: 16px;
 }
 
 .imagen_comida {
@@ -170,6 +174,85 @@
   height: 97px;
   border-radius: 15px;
   background-image: url(/imagens_cards_gus/Photo\ Menu.png);
+  margin: 2px auto;
+}
+
+.imagen_comida1 {
+  width: 237px;
+  height: 97px;
+  border-radius: 15px;
+  background-image: url(/imagens_cards_gus/qjamone.png);
+  margin: 2px auto;
+}
+
+.imagen_comida2 {
+  width: 237px;
+  height: 97px;
+  border-radius: 15px;
+  background-image: url(/imagens_cards_gus/lacharlygarcia.png);
+  margin: 2px auto;
+}
+
+.imagen_comida3 {
+  width: 237px;
+  height: 97px;
+  border-radius: 15px;
+  background-image: url(/imagens_cards_gus/lamaradona.png);
+  margin: 2px auto;
+}
+
+.imagen_comida4 {
+  width: 237px;
+  height: 97px;
+  border-radius: 15px;
+  background-image: url(/imagens_cards_gus/lahasbulla.png);
+  margin: 2px auto;
+}
+
+.nombre_producto h4 {
+  font-family: "Montserrat";
+  color: white;
+  background-color: #252525;
+  font-size: 14px;
+  text-align: left;
+}
+
+.desc h4 {
+  font-family: "Montserrat";
+  color: rgb(125, 148, 148);
+  background-color: #252525;
+  font-size: 14px;
+}
+
+.precio_boton {
+  background-color: #252525;
+  display: flex;
+  justify-content: space-between;
+}
+.precio_boton h2 {
+  font-family: "Montserrat";
+
+  background: linear-gradient(98.81deg, #ffa100 -0.82%, #ff005c 101.53%);
+  width: 100px;
+  font-size: 19px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card_boton {
+  background-color: transparent;
+}
+.card_boton button {
+  font-family: "Montserrat";
+  background: linear-gradient(98.81deg, #ffa100 -0.82%, #fb103d 101.53%);
+
+  color: #ffffff;
+  border: none;
+  width: 80px;
+  height: 27px;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 .contenedorFooter {
