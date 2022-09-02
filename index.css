@@ -70,9 +70,8 @@
 .pizzeria {
   width: 71px;
   height: 71px;
-
   border-radius: 15px;
-  background: url(./image\ 35.png);
+  background: url(/jennifer_imagenes/porcion_pizza_blur.png);
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -103,6 +102,9 @@
   width: 86px;
   height: 86px;
   background: transparent;
+  background: url(/jennifer_imagenes/burger_blur.png);
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .napapuki {
@@ -110,32 +112,43 @@
   height: 71px;
   left: 154px;
   border-radius: 15px;
-  background: url(./fries\ 2.png);
+  background: url(/jennifer_imagenes/fries_blur.png);
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 .individuales {
   width: 86px;
   height: 86px;
   background: transparent;
+  background: url(/jennifer_imagenes/porcion_pizza_2_blur.png);
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .wraps {
   width: 86px;
   height: 86px;
   background: transparent;
+  background: url(/jennifer_imagenes/burrito_blur.png);
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .mexicanfood {
   width: 86px;
   height: 86px;
-
-  background: url(/taco\ 1.png);
+  background: url(/jennifer_imagenes/taco_blur.png);
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .batidukys {
   width: 86px;
   height: 86px;
   border-radius: 15px;
-  background: url(/float\ 1.png);
+  background: url(/jennifer_imagenes/batido_blur.png);
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .lo_mas_popular {
