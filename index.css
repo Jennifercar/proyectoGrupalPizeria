@@ -40,7 +40,7 @@ body {
 .contenedorCategoria {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 60px;
   flex-wrap: wrap;
   width: 100%;
 }
@@ -167,7 +167,7 @@ body {
 
 .contenedor_cards {
   display: flex;
-  gap: 30px;
+  gap: 50px;
   flex-wrap: wrap;
   justify-content: center;
   margin: auto;
@@ -317,6 +317,10 @@ footer {
 
 .elementosFooter span {
   font-weight: bold;
+}
+
+.elementosFooter .cor {
+  color: red;
 }
 
 /* HERO */
