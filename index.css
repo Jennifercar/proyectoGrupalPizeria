@@ -367,7 +367,7 @@ footer {
   border: none;
   border-radius: 15px;
   color: #ffffff;
-  background: linear-gradient(90deg, #FFA100, #FB103D);
+  background: linear-gradient(90deg, #ffa100, #fb103d);
 }
 
 .hero-image {
@@ -393,7 +393,7 @@ footer {
   position: relative;
   top: -108px;
   left: -120px;
-  background-color: transparent;  
+  background-color: transparent;
 }
 
 .hero-two {
@@ -412,7 +412,8 @@ footer {
   padding: 0 70px;
   display: flex;
   flex-flow: row wrap;
-  gap: 36px;  
+  gap: 36px;
+  justify-content: center;
 }
 
 .hero-card {
@@ -458,16 +459,16 @@ footer {
   font-size: 19px;
   font-weight: 700;
   line-height: 25px;
-  background: linear-gradient(90deg, #FFA100, #FB103D);
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
+  background: linear-gradient(90deg, #ffa100, #fb103d);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .hero-card button {
   height: 29px;
   width: 85px;
   border-radius: 17.5px;
-  background: linear-gradient(90deg, #FFA100, #FB103D);
+  background: linear-gradient(90deg, #ffa100, #fb103d);
   border: none;
   color: #ffffff;
   font-family: var(--tipo-principal);
