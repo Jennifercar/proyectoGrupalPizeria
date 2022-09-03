@@ -321,7 +321,7 @@ footer {
 
 /* HERO */
 :root {
-  --tipo-principal: Montserrat, Arial;
+  --tipo-principal: "Montserrat";
 }
 .hero {
   width: 100vw;
