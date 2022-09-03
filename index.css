@@ -1,5 +1,4 @@
 * {
-  background: #131415;
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -7,6 +6,7 @@
 
 body {
   height: 120vh;
+  background: #131415;
 }
 .contenedorheader {
   height: 100px;
@@ -318,3 +318,162 @@ footer {
 .elementosFooter span {
   font-weight: bold;
 }
+
+/* HERO */
+:root {
+  --tipo-principal: Montserrat, Arial;
+}
+.hero {
+  width: 100vw;
+  margin: 80px 0px 0px 0px;
+  padding: 0 8%;
+}
+
+.hero-one {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.hero-text {
+  width: 50%;
+  min-width: 550px;
+  color: #ffffff;
+}
+
+.hero-text h1 {
+  font-family: var(--tipo-principal);
+  font-size: 66px;
+}
+
+.hero-text p span {
+  font-family: var(--tipo-principal);
+  font-size: 51px;
+  line-height: 66.82px;
+}
+
+.hero-text p {
+  font-family: var(--tipo-principal);
+  font-size: 21px;
+  line-height: 56px;
+}
+
+.hero-text button {
+  height: 50px;
+  width: 166px;
+  font-family: var(--tipo-principal);
+  margin-top: 34px;
+  border: none;
+  border-radius: 15px;
+  color: #ffffff;
+  background: linear-gradient(90deg, #FFA100, #FB103D);
+}
+
+.hero-image {
+  height: 274px;
+  width: 500px;
+  max-width: 640px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.hero-image img:first-child {
+  width: 265px;
+  height: 265px;
+  position: relative;
+  left: 15px;
+  background-color: transparent;
+}
+
+.hero-image img:last-child {
+  height: 392px;
+  width: 392px;
+  position: relative;
+  top: -108px;
+  left: -120px;
+  background-color: transparent;  
+}
+
+.hero-two {
+  color: #ffffff;
+  margin-top: 80px;
+}
+
+.hero-two h2 {
+  font-family: var(--tipo-principal);
+  font-size: 22px;
+  line-height: 28.83px;
+}
+
+.cards-container {
+  margin-top: 24px;
+  padding: 0 70px;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 36px;  
+}
+
+.hero-card {
+  height: 103px;
+  width: 347px;
+  min-width: 347px;
+  border-radius: 15px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #252525;
+  box-shadow: 0px 0px 50px 0px #01020780;
+}
+
+.hero-card img {
+  width: 62px;
+  height: 62px;
+  border-radius: 16px;
+}
+
+.hero-card div h3 {
+  font-family: var(--tipo-principal);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.hero-card .description {
+  margin: 5px 0;
+  font-family: var(--tipo-principal);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.5px;
+  opacity: 30%;
+}
+
+.hero-card .price {
+  font-family: var(--tipo-principal);
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 25px;
+  background: linear-gradient(90deg, #FFA100, #FB103D);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+}
+
+.hero-card button {
+  height: 29px;
+  width: 85px;
+  border-radius: 17.5px;
+  background: linear-gradient(90deg, #FFA100, #FB103D);
+  border: none;
+  color: #ffffff;
+  font-family: var(--tipo-principal);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+}
+/* FIN HERO */
