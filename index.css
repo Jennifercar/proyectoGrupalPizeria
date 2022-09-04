@@ -99,57 +99,34 @@ body {
   border-radius: 15px;
 }
 
-.hamburguesas {
+.size_img_cat {
   width: 86px;
   height: 86px;
   background: transparent;
-  background: url(/jennifer_imagenes/burger_blur.png);
   background-repeat: no-repeat;
   background-position: center center;
+}
+.hamburguesas {
+  background: url(/jennifer_imagenes/burger_blur.png);
 }
 
 .napapuki {
-  width: 71px;
-  height: 71px;
-  left: 154px;
-  border-radius: 15px;
   background: url(/jennifer_imagenes/fries_blur.png);
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 .individuales {
-  width: 86px;
-  height: 86px;
-  background: transparent;
   background: url(/jennifer_imagenes/porcion_pizza_2_blur.png);
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 .wraps {
-  width: 86px;
-  height: 86px;
-  background: transparent;
   background: url(/jennifer_imagenes/burrito_blur.png);
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 .mexicanfood {
-  width: 86px;
-  height: 86px;
   background: url(/jennifer_imagenes/taco_blur.png);
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 .batidukys {
-  width: 86px;
-  height: 86px;
-  border-radius: 15px;
   background: url(/jennifer_imagenes/batido_blur.png);
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 .lo_mas_popular {
@@ -183,68 +160,41 @@ body {
   padding: 16px;
 }
 
-.imagen_comida {
+.size_img {
   width: 237px;
   height: 97px;
   border-radius: 15px;
+}
+.imagen_comida {
   background-image: url(/imagens_cards_gus/Photo\ Menu.png);
-  margin: 2px auto;
 }
 
 .imagen_comida1 {
-  width: 237px;
-  height: 97px;
-  border-radius: 15px;
   background-image: url(/imagens_cards_gus/qjamone.png);
-  margin: 2px auto;
 }
 
 .imagen_comida2 {
-  width: 237px;
-  height: 97px;
-  border-radius: 15px;
   background-image: url(/imagens_cards_gus/lacharlygarcia.png);
-  margin: 2px auto;
 }
 
 .imagen_comida3 {
-  width: 237px;
-  height: 97px;
-  border-radius: 15px;
   background-image: url(/imagens_cards_gus/lamaradona.png);
-  margin: 2px auto;
 }
 
 .imagen_comida4 {
-  width: 237px;
-  height: 97px;
-  border-radius: 15px;
   background-image: url(/imagens_cards_gus/picantovich.png);
-  margin: 2px auto;
 }
 
 .imagen_comida5 {
-  width: 237px;
-  height: 97px;
-  border-radius: 15px;
   background-image: url(/imagens_cards_gus/lahasbulla.png);
-  margin: 2px auto;
 }
 
 .imagen_comida6 {
-  width: 237px;
-  height: 97px;
-  border-radius: 15px;
   background-image: url(/imagens_cards_gus/leomessi.png);
-  margin: 2px auto;
 }
 
 .imagen_comida7 {
-  width: 237px;
-  height: 97px;
-  border-radius: 15px;
   background-image: url(/imagens_cards_gus/nickgi.png);
-  margin: 2px auto;
 }
 
 .nombre_producto h4 {
