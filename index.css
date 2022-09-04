@@ -29,6 +29,7 @@ body {
   height: 100%;
 }
 
+/* COMIENZO DE SECCION CATEGORIAS ▼ ▼*/
 .categorias {
   width: 95%;
   display: flex;
@@ -129,6 +130,9 @@ body {
   background: url(/jennifer_imagenes/batido_blur.png);
 }
 
+/* FIN DE SECCION CATEGORIAS ▲ ▲*/
+
+/* COMIENZO DE SECCION LO MAS POPULAR ▼ ▼*/
 .lo_mas_popular {
   display: flex;
   width: 95%;
@@ -247,6 +251,9 @@ body {
 .card_boton button:hover {
   width: 150px;
 }
+
+/* FIN DE SECCION LO MAS POPULAR ▲ ▲*/
+/* COMIENZO DE LA SECCION FOOTER  ▼ ▼*/
 .contenedorFooter {
   display: flex;
   justify-content: center;
@@ -272,7 +279,7 @@ footer {
 .elementosFooter .cor {
   color: red;
 }
-
+/* FIN DE SECCION FOOTER ▲ ▲*/
 /* HERO */
 :root {
   --tipo-principal: "Montserrat";
