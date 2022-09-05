@@ -8,6 +8,7 @@ body {
   height: 120vh;
   background: #131415;
 }
+
 .contenedorheader {
   height: 100px;
   width: 100%;
@@ -38,6 +39,7 @@ body {
   margin: auto;
   flex-wrap: wrap;
 }
+
 .contenedorCategoria {
   display: flex;
   justify-content: center;
@@ -104,6 +106,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
 }
+
 .hamburguesas {
   background: url(/jennifer_imagenes/burger_blur.png);
 }
@@ -111,6 +114,7 @@ body {
 .napapuki {
   background: url(/jennifer_imagenes/fries_blur.png);
 }
+
 .individuales {
   background: url(/jennifer_imagenes/porcion_pizza_2_blur.png);
 }
@@ -150,6 +154,7 @@ body {
   justify-content: center;
   margin: auto;
 }
+
 .card_comida {
   display: flex;
   flex-direction: column;
@@ -166,6 +171,7 @@ body {
   height: 97px;
   border-radius: 15px;
 }
+
 .imagen_comida {
   background-image: url(/imagens_cards_gus/Photo\ Menu.png);
 }
@@ -218,6 +224,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
 .precio_boton h2 {
   font-family: "Montserrat";
 
@@ -231,6 +238,7 @@ body {
 .card_boton {
   background-color: transparent;
 }
+
 .card_boton button {
   font-family: "Montserrat";
   background: linear-gradient(98.81deg, #ffa100 -0.82%, #fb103d 101.53%);
@@ -262,6 +270,7 @@ body {
 footer {
   margin-top: 60px;
 }
+
 .elementosFooter {
   font-family: "Montserrat";
   font-weight: 400;
@@ -276,11 +285,13 @@ footer {
 .elementosFooter .cor {
   color: red;
 }
+
 /* FIN DE SECCION FOOTER ▲ ▲*/
 /* HERO */
 :root {
   --tipo-principal: "Montserrat";
 }
+
 .hero {
   width: 100vw;
   margin: 80px 0px 0px 0px;
@@ -430,4 +441,70 @@ footer {
   font-weight: 600;
   letter-spacing: 0.5px;
 }
+
 /* FIN HERO */
+
+/* INICIO MEDIA-Q */
+
+@media (max-width:1440px) {
+  .cards-container {
+    padding: 0px;
+  }
+}
+
+@media (max-width:1250px) {
+  .hero-one {
+    flex-direction: column-reverse;
+    overflow: visible;
+  }
+}
+
+@media (max-width:550px) {
+  .contenedorheader {
+    padding: 0px;
+  }
+
+  .hero {
+    width: 100%;
+  }
+
+  .hero-text {
+    min-width: 320px;
+    text-align: center;
+  }
+
+  .hero-image {
+    overflow: visible;
+    width: 100%;
+    padding: 0px;
+  }
+
+  .hero-image img:last-child {
+    top: -80px;
+    left: -115px;
+  }
+
+  .hero-image #pizza-img {
+    max-block-size: 180px;
+  }
+
+  .hero-image #pizza-img-3d {
+    max-block-size: 280px;
+  }
+
+  .hero-one {
+    align-items: center;
+  }
+
+  .contenedorFooter {
+    flex-direction: column;
+  }
+}
+
+@media (max-width:375px) {
+  .contenedorCategoria {
+    gap: 10px;
+  }
+}
+
+/* FIN MEDIA-Q */
