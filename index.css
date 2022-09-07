@@ -442,6 +442,17 @@ footer {
   letter-spacing: 0.5px;
 }
 
+.button_scale:hover {
+  animation-name: scale_button;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes scale_button {
+  from {scale: 1;}
+  to {scale: 1.2;}
+}
+
 /* FIN HERO */
 
 /* INICIO MEDIA-Q */
